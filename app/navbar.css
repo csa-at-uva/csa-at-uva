@@ -1,0 +1,23 @@
+ul#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: transparent;
+  text-align: right;
+}
+
+ul#navbar a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Quicksand, serif;
+  font-size: 2em;
+  font-weight: 600;
+  transition-duration: 0.5s;
+}
+
+ul#navbar a:hover {
+  background-color: darkred;
+  color: white;
+  transition-duration: 0.5s;
+}
