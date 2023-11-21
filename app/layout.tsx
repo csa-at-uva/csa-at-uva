@@ -3,6 +3,8 @@ import './navbar.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
+import Image from 'next/image'
+import logo from '/public/images/csa_square_logo.png'
 import "@fontsource/quicksand"
 
 const inter = Inter({ subsets: ['latin'] })
@@ -44,9 +46,18 @@ export default function RootLayout({
     <html lang="en">
         <body className={inter.className}>
           <ul id="navbar">
-            <Link href="/">Home</Link>
+            {/* <Link href="/">Home</Link> */}
+            <Link href="/">
+              <Image src={logo} alt={'CSA'} width={80} height={80}/>
+            </Link>
             <Link href="/about">About</Link>
-            <Link href="/events">Events</Link>
+            <div className="dropdown">
+              <span className="dropdown-link">Events</span>
+              <div className="dropdown-content">
+                <Link href="/events/upcoming">Upcoming</Link>
+                <Link href="/events/past">Past</Link>
+              </div>
+            </div>
             <Link href="/gallery">Gallery</Link>
           </ul>
           {children}

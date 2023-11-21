@@ -14,9 +14,61 @@ ul#navbar a {
   font-size: 2em;
   font-weight: 600;
   transition-duration: 0.5s;
+  position: relative; /* Added for dropdown positioning */
 }
 
 ul#navbar a:hover {
+  background-color: darkred;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+/* Dropdown styles */
+ul#navbar span {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Quicksand, serif;
+  font-size: 2em;
+  font-weight: 600;
+  transition-duration: 0.5s;
+  position: relative; 
+}
+
+ul#navbar span:hover {
+  background-color: darkred;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  align-content: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+ul#navbar .dropdown-content a {
+  font-size: 1.25em; 
+}
+
+.dropdown-content a:hover {
   background-color: darkred;
   color: white;
   transition-duration: 0.5s;
