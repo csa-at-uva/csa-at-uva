@@ -1,10 +1,11 @@
-ul#navbar {
+.entire_nav ul#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: block;
   background-color: transparent;
   text-align: right;
+  justify-content: right;
 }
 
 ul#navbar a {
@@ -48,7 +49,7 @@ ul#navbar span:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: white;
   align-content: center;
 }
 
@@ -72,4 +73,13 @@ ul#navbar .dropdown-content a {
   background-color: darkred;
   color: white;
   transition-duration: 0.5s;
+}
+
+.entire_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar{
+  align-content: right;
 }

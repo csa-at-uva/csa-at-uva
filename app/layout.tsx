@@ -45,21 +45,24 @@ export default function RootLayout({
   return (
     <html lang="en">
         <body className={inter.className}>
-          <ul id="navbar">
-            {/* <Link href="/">Home</Link> */}
+          <div className='entire_nav'>
             <Link href="/">
-              <Image src={logo} alt={'CSA'} width={80} height={80}/>
+              <Image src={logo} alt={'CSA'} width={68} height={68}/>
             </Link>
-            <Link href="/about">About</Link>
-            <div className="dropdown">
-              <span className="dropdown-link">Events</span>
-              <div className="dropdown-content">
-                <Link href="/events/upcoming">Upcoming</Link>
-                <Link href="/events/past">Past</Link>
+            <ul className='navbar' id="navbar">
+              <Link href="/about">About</Link>
+              <div className="dropdown">
+                <span className="dropdown-link">Events</span>
+                <div className="dropdown-content">
+                  <Link href="/events/upcoming">Upcoming</Link>
+                  <Link href="/events/past">Past</Link>
+                </div>
               </div>
-            </div>
-            <Link href="/gallery">Gallery</Link>
-          </ul>
+              <Link href="/families">Families</Link>
+              <Link href="/gallery">Gallery</Link>
+              <Link href="/alumni">Alumni</Link>
+            </ul>
+          </div>
           {children}
         </body>
     </html>
