@@ -11,7 +11,7 @@
 ul#navbar a {
   display: inline-block;
   padding: 10px 20px;
-  font-family: Quicksand, serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
   font-weight: 600;
   transition-duration: 0.5s;
@@ -28,7 +28,7 @@ ul#navbar a:hover {
 ul#navbar span {
   display: inline-block;
   padding: 10px 20px;
-  font-family: Quicksand, serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
   font-weight: 600;
   transition-duration: 0.5s;
@@ -50,7 +50,11 @@ ul#navbar span:hover {
   display: none;
   position: absolute;
   background-color: white;
-  align-content: center;
+  text-align: center; /* Center the text */
+  padding: 0; /* Remove padding */
+  width: max-content; /* Set width to the content width */
+  left: 0; /* Position dropdown at the left edge */
+  z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -60,9 +64,8 @@ ul#navbar span:hover {
 .dropdown-content a {
   color: black;
   text-decoration: none;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  display: block; /* Change display to block for full width */
+  padding: 8px 16px; /* Add padding for better appearance */
 }
 
 ul#navbar .dropdown-content a {

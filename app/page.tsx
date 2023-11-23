@@ -1,7 +1,7 @@
 'use client';
 import 'app/page.css';
 import 'app/globals.css';
-import "@fontsource/quicksand";
+import "@fontsource/raleway";
 
 import React, { useEffect, useState } from 'react';
 import { Card, CardContent, Typography, Grid, Button } from '@mui/material';
