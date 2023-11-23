@@ -58,7 +58,7 @@ function Home() {
                 </CardContent>
               </Card>
             )}
-            <div className='forms' style={{ marginTop: '20px', textAlign: 'center' }}>
+            <div className='buttons' style={{ marginTop: '20px', textAlign: 'center' }}>
               {isClient && (
                 <>
                   <Button variant="contained" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSdbZAPO9ABYxPKRWU6o4HVW5tD_0hMBbOe9vsYJb-6oyJwSzg/viewform")}>
@@ -70,7 +70,7 @@ function Home() {
                 </>
               )}
             </div>
-            <div className='forms' style={{ marginTop: '20px', textAlign: 'center' }}>
+            <div className='buttons' style={{ marginTop: '20px', textAlign: 'center' }}>
               {isClient && (
                 <>
                   <Button variant="contained" onClick={() => window.open("https://facebook.us20.list-manage.com/subscribe?u=5df38cf096c70a0a7d9613210&id=a7ebb0ef17")} style={{ marginLeft: '10px' }}>
