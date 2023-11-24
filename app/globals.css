@@ -24,6 +24,14 @@ h1, h2, h3, h4, h5, h6, p, .introduction, .buttons button, .socials {
   font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+  color: #7b1500;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 0.5;
+  text-align: center;
+}
+
 .buttons {
   margin-top: 15px;
   text-align: center;
