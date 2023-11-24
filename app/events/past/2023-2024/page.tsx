@@ -4,13 +4,15 @@ import "@fontsource/raleway";
 
 import React from 'react';
 import { Grid, Button } from '@mui/material';
+import { FaArrowLeftLong } from "react-icons/fa6";
 import EventCard from '@components/EventCard';
+import ScrollUpButton from '@components/ScrollUpButton';
 import Link from 'next/link';
 
 const Past2023_2024 = () => {
   const containerStyle: React.CSSProperties = {
     padding: '0 30px',
-    maxWidth: '1400px', 
+    maxWidth: '1400px',
     margin: '0 auto',
     display: 'flex',
     flexDirection: 'column',
@@ -45,7 +47,7 @@ const Past2023_2024 = () => {
         <div className='buttons'>
             <Link href="/events/past/">
               <Button variant="contained">
-                Back
+                <FaArrowLeftLong/>
               </Button>
             </Link>
         </div>
@@ -211,6 +213,7 @@ const Past2023_2024 = () => {
           />
         </Grid>
       </Grid>
+      <ScrollUpButton /> 
     </div>
   );
 };
