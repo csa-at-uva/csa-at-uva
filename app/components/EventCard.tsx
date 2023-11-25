@@ -38,7 +38,7 @@ const EventCard: React.FC<EventCardProps> = ({
     transform: 'translate(-50%, -50%)',
     textAlign: 'center',
     opacity: isHovered ? 1 : 0,
-    transition: 'opacity 0.3s ease-in-out',
+    transition: 'opacity 0.3s ease',
     color: isHovered ? 'black' : 'transparent',
     backgroundColor: isHovered ? 'white' : 'transparent',
     padding: '20px', // Increase the padding for a wider overlay

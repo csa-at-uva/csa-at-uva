@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const Past2023_2024 = () => {
   const containerStyle: React.CSSProperties = {
-    padding: '0 30px',
+    padding: '0 20px',
     maxWidth: '1400px',
     margin: '0 auto',
     display: 'flex',
@@ -22,18 +22,18 @@ const Past2023_2024 = () => {
   const headerWrapperStyle: React.CSSProperties = {
     display: 'flex',
     alignItems: 'center',
-    textAlign: 'center',
+    justifyContent: 'center',
     width: '100%',
-    marginBottom: '20px',
+    paddingBottom: '20px'
   };
 
   const headerStyle: React.CSSProperties = {
-    marginRight: '10px', 
+    flex: 1,
     textAlign: 'center',
   };
 
   const cardStyle: React.CSSProperties = {
-    padding: '30px',
+    padding: '20px',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -51,8 +51,8 @@ const Past2023_2024 = () => {
               </Button>
             </Link>
         </div>
-        <div className='header' style={{ ...headerStyle, flex: 1 }}>
-          <h1 className='header'>2023-2024 Events</h1>
+        <div style={{ ...headerStyle }}>
+          <h1>2023-2024 Events</h1>
         </div>
       </div>
       <Grid container spacing={3}>
@@ -61,9 +61,10 @@ const Past2023_2024 = () => {
             image='/images/2023-2024/triple_threat.jpg'
             header="Triple Threat"
             subheading="Nov 4, 2023 | DU @ 171 Madison Lane"
-            text={`get ready for back to back parties!!! 🎉\n
-              socials from csa x oyfa x vsa presents TRIPLE THREAT ⚠️⚠️3️⃣⚠️⚠️\n
-              come stop by and celebrate after CULTUREFEST 🕺👯‍♀️💃`}
+            text={`socials from csa x oyfa x vsa presents TRIPLE THREAT ⚠️⚠️3️⃣⚠️⚠️\n
+            Dress Code: Dress as your favorite iconic trio!\n
+            Door fee: FREE for performers in csa / vsa / oyfa (make sure to grab your wristbands at culturefest!), $5 for due paying members, $8 for non due paying members\n
+            come stop by and celebrate after CULTUREFEST 🕺👯‍♀️💃`}
             style={cardStyle} 
           />
         </Grid>
