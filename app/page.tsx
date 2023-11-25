@@ -29,8 +29,8 @@ function Home() {
 
   return (
     <div className="home" style={backgroundImageStyle}>
-      <div className='content' style={{ padding: '20px' }}>
-        <div className='header' style={{ marginBottom: '20px' }}>
+      <div className='content'>
+        <div className='header'>
           <h1>Welcome to CSA!</h1>
         </div>
         <Grid container justifyContent="center" spacing={2}>
@@ -48,17 +48,17 @@ function Home() {
                     <Link href="https://www.facebook.com/groups/csaatuva">
                       <Image src={facebook_group} alt={'Facebook group icon'} />
                     </Link>
-                    <Link href="https://www.youtube.com/@TheCSAatUVA">
+                    <Link href="https://www.instagram.com/csaatuva/">
                       <Image src={instagram} alt={'Instagram icon'} />
                     </Link>
-                    <Link href="https://www.instagram.com/csaatuva/">
+                    <Link href="https://www.youtube.com/@TheCSAatUVA">
                       <Image src={youtube} alt={'YouTube icon'} />
                     </Link>
                   </div>
                 </CardContent>
               </Card>
             )}
-            <div className='buttons' style={{ marginTop: '20px', textAlign: 'center' }}>
+            <div className='buttons'>
               {isClient && (
                 <>
                   <Button variant="contained" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSdbZAPO9ABYxPKRWU6o4HVW5tD_0hMBbOe9vsYJb-6oyJwSzg/viewform")}>
@@ -70,7 +70,7 @@ function Home() {
                 </>
               )}
             </div>
-            <div className='buttons' style={{ marginTop: '20px', textAlign: 'center' }}>
+            <div className='buttons'>
               {isClient && (
                 <>
                   <Button variant="contained" onClick={() => window.open("https://facebook.us20.list-manage.com/subscribe?u=5df38cf096c70a0a7d9613210&id=a7ebb0ef17")} style={{ marginLeft: '10px' }}>

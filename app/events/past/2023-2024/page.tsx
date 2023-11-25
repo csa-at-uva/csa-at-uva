@@ -38,7 +38,7 @@ const Past2023_2024 = () => {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100%', // To ensure the cards take the full height of their container
+    height: '100%', 
   };
 
   return (
