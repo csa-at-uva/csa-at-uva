@@ -4,14 +4,14 @@ import "@fontsource/raleway";
 
 import React from 'react';
 
-const About = () => {
+const Officers = () => {
   return (
     <div className='content'>
       <div className='header'>
-        <h1>About CSA - coming soon!</h1>
+        <h1>Officers - coming soon!</h1>
       </div>
     </div>
   );
 };
 
-export default About;
+export default Officers;

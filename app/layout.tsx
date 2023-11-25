@@ -59,6 +59,7 @@ export default function RootLayout({
                 </div>
               </div>
               <Link href="/families">Families</Link>
+              <Link href="/officers">Officers</Link>
               <Link href="/gallery">Gallery</Link>
               <Link href="/alumni">Alumni</Link>
             </ul>
