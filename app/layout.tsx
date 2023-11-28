@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '/public/images/csa_square_logo.png'
-import "@fontsource/quicksand"
+import "@fontsource/raleway"
 
 const inter = Inter({ subsets: ['latin'] })
 
