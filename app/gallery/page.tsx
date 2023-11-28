@@ -1,10 +1,15 @@
+'use client';
+import 'app/globals.css';
+import "@fontsource/raleway";
+
 import React from 'react';
 
 const Gallery = () => {
   return (
-    <div>
-      <h1>Gallery Page</h1>
-      {/* Add your events page content here */}
+    <div className='content'>
+      <div className='header'>
+        <h1>Gallery - coming soon!</h1>
+      </div>
     </div>
   );
 };

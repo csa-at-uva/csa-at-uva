@@ -20,6 +20,47 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, .introduction, .forms button, .socials {
+h1, h2, h3, h4, h5, h6, p, .introduction, .buttons button, .socials {
   font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #7b1500;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 0.5;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.header {
+  max-width: 850px;
+  margin: 0 auto; 
+  margin-bottom: 15px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buttons button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 200;
+  background-color: #7b1500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: black;
 }
