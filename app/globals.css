@@ -16,10 +16,47 @@
   }
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
+.home {
+  min-height: 100vh;
 }
 
+/* Officers Page */
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.YouTubeEmbedContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.OfficerCardContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.OfficerCardContainer h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.OfficerCardContainer h3 {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Centering content */
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Text styles */
 h1, h2, h3, h4, h5, h6, p, .introduction, .buttons button, .socials {
   font-family: 'Raleway', sans-serif;
 }
@@ -28,7 +65,7 @@ h1 {
   color: #7b1500;
   font-weight: 800;
   font-size: 2.5rem;
-  line-height: 0.5;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -36,20 +73,17 @@ h2 {
   color: #7b1500;
   font-weight: 800;
   font-size: 2rem;
-  line-height: 0.5;
+  line-height: 1.2;
   text-align: center;
 }
 
-.content {
-  padding: 20px;
-}
-
 .header {
-  max-width: 850px;
-  margin: 0 auto; 
-  margin-bottom: 15px;
+  max-width: 100%;
+  margin: 20px auto;
+  text-align: center;
 }
 
+/* Button styles */
 .buttons {
   margin-top: 20px;
   text-align: center;
@@ -65,7 +99,7 @@ h2 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease; 
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .buttons button:hover {
