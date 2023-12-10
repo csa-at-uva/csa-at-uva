@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --swiper-navigation-color: #7b1500;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -81,6 +82,12 @@ h2 {
   max-width: 100%;
   margin: 20px auto;
   text-align: center;
+}
+
+.content .header h3 {
+  width: 80%;
+  margin: 20px auto; 
+  line-height: 1.6; 
 }
 
 /* Button styles */
