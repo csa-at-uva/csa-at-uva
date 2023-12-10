@@ -4,7 +4,7 @@ import "@fontsource/raleway";
 
 import React from 'react';
 import Image from 'next/image';
-import { Grid, Paper  } from '@mui/material';
+import { Grid } from '@mui/material';
 import YouTubeEmbed from '@/app/components/YouTubeEmbed';
 import OfficerCard from '@/app/components/OfficerCard';
 
@@ -31,7 +31,7 @@ const Officers = () => {
         <h1>2023-2024 Executive and Officer Board</h1>
       </div>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={6}>
           <div className='ImageContainer'>
             <Image
               src={board}
@@ -40,7 +40,7 @@ const Officers = () => {
             />
           </div>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={6}>
           <div className='YouTubeEmbedContainer'>
             <YouTubeEmbed embedId="_JDPiBnltew?si=jLEIlZFjt9R4UmWy" embedWidth={500} embedHeight={300} />
           </div>
@@ -73,35 +73,67 @@ const Officers = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={3}>
             <h2>Advisors</h2>
-            <OfficerCard imagePath={advisors.src} name={`Head Advisors: Safa Khan, Justin Zhang, Emma Mei Andreas, and Michelle Kwan \n Advisors: Ken Chao, Margaux Reppert, and Isabelle Ngo`}/>
+            <OfficerCard 
+              imagePath={advisors.src} 
+              name={`Head Advisors: Safa Khan, Justin Zhang, Emma Mei Andreas, and Michelle Kwan \n Advisors: Ken Chao, Margaux Reppert, and Isabelle Ngo`}
+              description="Advisors are previous leaders in CSA who use their expertise to ensure all CSA events run smoothly."
+            />
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Community</h2>
-            <OfficerCard imagePath={community.src} name="Albert Huang, Kevin Zhang, and Coco Clement" />
+            <OfficerCard 
+              imagePath={community.src} 
+              name="Albert Huang, Kevin Zhang, and Coco Clement" 
+              description="Community chairs oversee all activities pertaining to membership recruiting and retention. They are in charge of the family program, which includes planning family weeks and family competitions."
+            />
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Culture</h2>
-            <OfficerCard imagePath={culture.src} name="Victoria Lu, Nick Liu, and Camille Hou" />
+            <OfficerCard 
+              imagePath={culture.src} 
+              name="Victoria Lu, Nick Liu, and Camille Hou" 
+              description='Culture chairs oversee the planning of all cultural events in order to promote Chinese culture on grounds and within the local Charlottesville community.'
+            />
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Fundraising</h2>
-            <OfficerCard imagePath={fundraising.src} name="James Xu and Laura Abood" />
+            <OfficerCard 
+              imagePath={fundraising.src} 
+              name="James Xu and Laura Abood" 
+              description='Fundraising chairs work closely with the Treasurer to plan and organize fundraising events. They are also in charge of obtaining sponsors and raffles for CSA events.'
+            />
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Historic</h2>
-            <OfficerCard imagePath={historic.src} name="Kyra Li, Eddie Wei, and Lizzie Chu" />
+            <OfficerCard 
+              imagePath={historic.src} 
+              name="Kyra Li, Eddie Wei, and Lizzie Chu" 
+              description='Historic chairs are responsible for taking pictures and videos at all CSA events as well as creating promotional and monthly recap videos during the year.'
+            />
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Public Relations</h2>
-            <OfficerCard imagePath={pr.src} name="Maddie Mark, Danielle Zhang, and Kristina Schatz" />
+            <OfficerCard 
+              imagePath={pr.src} 
+              name="Maddie Mark, Danielle Zhang, and Kristina Schatz" 
+              description='Publicity chairs are in charge of advertising CSA events by creating flyers and Facebook profile advertisements for each event.'
+            />
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Social</h2>
-            <OfficerCard imagePath={social.src} name="Philip Li and Raymond Ni" />
+            <OfficerCard 
+              imagePath={social.src} 
+              name="Philip Li and Raymond Ni" 
+              description='Social chairs plan and organize CSA-wide social events.'
+            />
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Sports</h2>
-            <OfficerCard imagePath={sports.src} name="Anthony Wang and Kenny Tran" />
+            <OfficerCard 
+              imagePath={sports.src} 
+              name="Anthony Wang and Kenny Tran" 
+              description='Sports chairs are responsible for organizing sports events and tournaments such as IM sports games and practices.'
+            />
           </Grid>
           {/* <Grid item xs={12} sm={3}>
             <h2>Webmasters</h2>
