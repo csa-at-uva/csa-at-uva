@@ -19,7 +19,7 @@ const Families = () => {
     <div className='content'>
       <div className='header'>
         <h1>Families</h1>
-        <h3>Every year, all members are assigned to different families. Families play a major role in CSA's social activities, from organizing family events to creating a sense of community for both new and old members. The family system cultivates strong connections, fostering friendships and shared experiences that define the essence of the CSA.</h3>
+        <h3>Every year, all members are assigned to different families. Families play a major role in CSA&apos;s social activities, from organizing family events to creating a sense of community for both new and old members. The family system cultivates strong connections, fostering friendships and shared experiences that define the essence of the CSA.</h3>
       </div>
       <Swiper slidesPerView={1} loop={true} navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
