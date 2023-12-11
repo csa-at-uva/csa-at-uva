@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
+import Footer from '@components/Footer';
 import logo from '/public/images/csa_square_logo.png'
 import "@fontsource/raleway"
 
@@ -66,6 +67,7 @@ export default function RootLayout({
             </ul>
           </div>
           {children}
+          <Footer></Footer>
         </body>
     </html>
   )
