@@ -23,36 +23,51 @@ const Families = () => {
       </div>
       <Swiper slidesPerView={1} loop={true} navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <h2>Divine Dogs</h2>
-          <div style={{ display: 'flex', justifyContent: 'center'  }}>
+        <div className='header'>
+            <h2>Divine Dogs</h2>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Image
               src={dogs}
               alt="Dogs' family picture at Sunset Series"
               height={350}
             />
-            <InstagramEmbed url="https://www.instagram.com/p/CyL2cQNODIO/" width={328} />
+            <InstagramEmbed
+              url="instagram.com/p/CyL2cQNODIO/"
+              height={350}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <h2>Glorious Goats</h2>
-          <div style={{ display: 'flex', justifyContent: 'center'  }}>
+          <div className='header'>
+            <h2>Glorious Goats</h2>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Image
               src={goats}
               alt="Goats' family picture at Sunset Series"
               height={350}
             />
-            <InstagramEmbed url="https://www.instagram.com/p/CwxjbZzAf69/" width={328} />
+            <InstagramEmbed 
+              url="https://www.instagram.com/p/C0sa2czNBbz/" 
+              height={350} 
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <h2>Snazzy Snakes</h2>
+          <div className='header'>
+            <h2>Snazzy Snakes</h2>
+          </div>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Image
               src={snakes}
               alt="Snakes' family picture at Sunset Series"
               height={350}
             />
-            <InstagramEmbed url="https://www.instagram.com/p/Cwu8kU-OlpH/" width={328} />
+            <InstagramEmbed 
+              url="https://www.instagram.com/p/Cwu8kU-OlpH/" 
+              height={350} 
+            />
           </div>
         </SwiperSlide>
       </Swiper>
