@@ -6,7 +6,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Grid } from '@mui/material';
 import YouTubeEmbed from '@/app/components/YouTubeEmbed';
-import OfficerCard from '@/app/components/OfficerCard';
+import PhotoCard from '@/app/components/PhotoCard';
 
 import board from '/public/images/2023-2024/officers/board.jpg';
 import president from '/public/images/2023-2024/officers/president.jpg';
@@ -52,19 +52,19 @@ const Officers = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={3}>
           <h2>President</h2>
-          <OfficerCard imagePath={president.src} name="Kelly Gu" />
+          <PhotoCard imagePath={president.src} name="Kelly Gu" />
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Vice President</h2>
-          <OfficerCard imagePath={vice_president.src} name="Hana Wang" />
+          <PhotoCard imagePath={vice_president.src} name="Hana Wang" />
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Secretary</h2>
-          <OfficerCard imagePath={secretary.src} name="Alisha Qian" />
+          <PhotoCard imagePath={secretary.src} name="Alisha Qian" />
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Treasurer</h2>
-          <OfficerCard imagePath={treasurer.src} name="Carlie Stewart" />
+          <PhotoCard imagePath={treasurer.src} name="Carlie Stewart" />
         </Grid>
       </Grid>
       <div className='header'>
@@ -73,7 +73,7 @@ const Officers = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={3}>
             <h2>Advisors</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={advisors.src} 
               name={`Head Advisors: Safa Khan, Justin Zhang, Emma Mei Andreas, and Michelle Kwan \n Advisors: Ken Chao, Margaux Reppert, and Isabelle Ngo`}
               description="Advisors are previous leaders in CSA who use their expertise to ensure all CSA events run smoothly."
@@ -81,7 +81,7 @@ const Officers = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Community</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={community.src} 
               name="Albert Huang, Kevin Zhang, and Coco Clement" 
               description="Community chairs oversee all activities pertaining to membership recruiting and retention. They are in charge of the family program, which includes planning family weeks and family competitions."
@@ -89,7 +89,7 @@ const Officers = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Culture</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={culture.src} 
               name="Victoria Lu, Nick Liu, and Camille Hou" 
               description='Culture chairs oversee the planning of all cultural events in order to promote Chinese culture on grounds and within the local Charlottesville community.'
@@ -97,7 +97,7 @@ const Officers = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Fundraising</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={fundraising.src} 
               name="James Xu and Laura Abood" 
               description='Fundraising chairs work closely with the Treasurer to plan and organize fundraising events. They are also in charge of obtaining sponsors and raffles for CSA events.'
@@ -105,7 +105,7 @@ const Officers = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Historic</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={historic.src} 
               name="Kyra Li, Eddie Wei, and Lizzie Chu" 
               description='Historic chairs are responsible for taking pictures and videos at all CSA events as well as creating promotional and monthly recap videos during the year.'
@@ -113,7 +113,7 @@ const Officers = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Public Relations</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={pr.src} 
               name="Maddie Mark, Danielle Zhang, and Kristina Schatz" 
               description='Publicity chairs are in charge of advertising CSA events by creating flyers and Facebook profile advertisements for each event.'
@@ -121,7 +121,7 @@ const Officers = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Social</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={social.src} 
               name="Philip Li and Raymond Ni" 
               description='Social chairs plan and organize CSA-wide social events.'
@@ -129,7 +129,7 @@ const Officers = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <h2>Sports</h2>
-            <OfficerCard 
+            <PhotoCard 
               imagePath={sports.src} 
               name="Anthony Wang and Kenny Tran" 
               description='Sports chairs are responsible for organizing sports events and tournaments such as IM sports games and practices.'

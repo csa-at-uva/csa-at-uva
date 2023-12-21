@@ -30,11 +30,11 @@ const Families = () => {
             <Image
               src={dogs}
               alt="Dogs' family picture at Sunset Series"
-              height={350}
+              height={375}
             />
             <InstagramEmbed
               url="instagram.com/p/CyL2cQNODIO/"
-              height={350}
+              height={375}
             />
           </div>
         </SwiperSlide>
@@ -46,11 +46,11 @@ const Families = () => {
             <Image
               src={goats}
               alt="Goats' family picture at Sunset Series"
-              height={350}
+              height={375}
             />
             <InstagramEmbed 
-              url="https://www.instagram.com/p/C0sa2czNBbz/" 
-              height={350} 
+              url="https://www.instagram.com/p/CwxjbZzAf69/" 
+              height={375} 
             />
           </div>
         </SwiperSlide>
@@ -62,11 +62,11 @@ const Families = () => {
             <Image
               src={snakes}
               alt="Snakes' family picture at Sunset Series"
-              height={350}
+              height={375}
             />
             <InstagramEmbed 
               url="https://www.instagram.com/p/Cwu8kU-OlpH/" 
-              height={350} 
+              height={375} 
             />
           </div>
         </SwiperSlide>
