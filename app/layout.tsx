@@ -62,7 +62,12 @@ export default function RootLayout({
               </div>
               <Link href="/families">Families</Link>
               <Link href="/officers">Officers</Link>
-              <Link href="/gallery">Gallery</Link>
+              <div className="dropdown">
+                <Link href="/gallery">Gallery</Link>
+                <div className="dropdown-content">
+                  <Link href="/gallery/archive">Archive</Link>
+                </div>
+              </div>
               <Link href="/alumni">Alumni</Link>
             </ul>
           </div>

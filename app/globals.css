@@ -21,6 +21,15 @@
   min-height: 100vh;
 }
 
+.background {
+  background-image: url('/public/images/mountains.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+  padding-top: 80px; 
+  padding: 20px;
+}
+
 /* Officers Page */
 .ImageContainer {
   display: flex;
