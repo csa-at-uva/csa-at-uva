@@ -23,6 +23,7 @@
       "@components/*": ["./app/components/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/EventCard.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/EventCard.tsx", "declaration.d.ts", "public/images/**/*.ts", "public/images/**/*.tsx"],
+  "exclude": ["node_modules"],
+  "typeRoots": ["./node_modules/@types", "./declaration.d.ts"]
 }

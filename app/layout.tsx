@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
+import Footer from '@components/Footer';
 import logo from '/public/images/csa_square_logo.png'
 import "@fontsource/raleway"
 
@@ -40,6 +41,7 @@ export default function RootLayout({
     //   }(document, 'script', 'facebook-jssdk'));
     // 
     }
+    
   }
 
   return (
@@ -60,7 +62,12 @@ export default function RootLayout({
               </div>
               <Link href="/families">Families</Link>
               <Link href="/officers">Officers</Link>
-              <Link href="/gallery">Gallery</Link>
+              <div className="dropdown">
+                <Link href="/gallery">Gallery</Link>
+                <div className="dropdown-content">
+                  <Link href="/gallery/archive">Archive</Link>
+                </div>
+              </div>
               <Link href="/alumni">Alumni</Link>
             </ul>
           </div>
