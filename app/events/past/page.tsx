@@ -1,5 +1,4 @@
 'use client';
-import 'app/events/past/page.css';
 import 'app/globals.css';
 import "@fontsource/raleway";
 
@@ -28,7 +27,7 @@ function Past() {
   };
 
   return (
-    <div className='past' style={backgroundImageStyle}>
+    <div className='background' style={backgroundImageStyle}>
       <h1>Past Events</h1>
       <div className='buttons'>
         <Grid container spacing={0} style={gridContainerStyles}>
