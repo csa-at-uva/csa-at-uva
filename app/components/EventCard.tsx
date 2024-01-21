@@ -29,6 +29,14 @@ const EventCard: React.FC<EventCardProps> = ({
   const cardStyles: React.CSSProperties = {
     position: 'relative',
     transition: 'transform 0.3s ease-in-out',
+    overflow: 'hidden' 
+  };
+
+  const mediaStyles: React.CSSProperties = {
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover', 
+    display: 'block',
   };
 
   const overlayStyles: React.CSSProperties = {
@@ -64,7 +72,7 @@ const EventCard: React.FC<EventCardProps> = ({
     >
       <CardMedia
         component="img"
-        style={{ width: '100%', height: '100%' }}
+        style={mediaStyles}
         image={image}
         alt="Card Image"
       />

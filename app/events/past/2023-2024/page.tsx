@@ -235,7 +235,7 @@ const Past2023_2024 = () => {
           <EventCard
             image='/images/2023-2024/events/teado.jpg'
             header="Tea Do Fundraiser"
-            subheading="July 29, 2023 | Tea Do Fairfax"
+            subheading="Jul 29, 2023 | Tea Do Fairfax"
             text={`🧋🧋Looking for your next boba fix? 🧋🧋
             Well, look no further! In collaboration with CSO @ William&Mary, we present to you our Tea Do fundraiser! Swing by to catch up with friends and enjoy a refreshing drink! Don’t forget to mention the fundraiser at the counter! 😁`}
             style={cardStyle} 
