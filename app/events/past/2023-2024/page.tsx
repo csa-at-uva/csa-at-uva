@@ -58,6 +58,34 @@ const Past2023_2024 = () => {
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <EventCard
+            image='/images/2023-2024/events/january_gbm.jpg'
+            header="January GBM"
+            subheading="Jan 24, 2024 | Ern Commons"
+            text={`Join us as we recap winter break and tease some exciting upcoming events that this semester has to offer!`}
+            style={cardStyle} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/december_gbm.jpg'
+            header="December GBM"
+            subheading="Dec 6, 2024 | Ern Commons"
+            text={`Join us in closing off the semester with our December GBM on December 6th! ❄️☃️This will be one you won’t want to miss. We will be handing out Santagrams 🍪 (and selling extras for those who missed their chance to buy one) to spread the holiday cheer! ✨🎄There will also be a Secret Santa gift exchange 🎁 after for those who signed up.`}
+            style={cardStyle} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/dds.jpg'
+            header="Dollar Dim Sum"
+            subheading="Dec 2, 2023 | Shea House"
+            text={`Take a break from dining hall food 🤮 and enjoy HOMEMADE DIM SUM! 😋 Get your sweet 🍬 and savory urges satisfied 🥡 with us at Shea House this weekend! 📅
+            Dishes are only $1 each! We accept both Venmo and cash.`}
+            style={cardStyle} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
             image='/images/2023-2024/events/triple_threat.jpg'
             header="Triple Threat"
             subheading="Nov 4, 2023 | DU @ 171 Madison Lane"
