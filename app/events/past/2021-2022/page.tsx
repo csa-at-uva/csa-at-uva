@@ -76,7 +76,7 @@ const Past2021_2022 = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <EventCard
-            image='/images/2021-2022/events/chinafest.jpg'
+            image='/images/2021-2022/events/chinafest.png'
             header="Chinafest"
             subheading="Mar 26, 2022 | Buford Middle School"
             text={`Chinafest is CSA's largest annual performance, and brings together the members our organization, to celebrate the Lunar New Year. Indulge in Chinese culture like you've never before. Our members have been working hard for the past few weeks to prepare this performance, with both traditional and modern acts!`}
@@ -255,7 +255,6 @@ const Past2021_2022 = () => {
             style={cardStyle} 
           />
         </Grid>
-        {/* TODO: */}
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <EventCard
             image='/images/2021-2022/events/october_gbm.jpg'
