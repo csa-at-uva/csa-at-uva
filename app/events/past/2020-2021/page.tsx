@@ -226,7 +226,6 @@ const Past2020_2021 = () => {
             text={`Come out to our October GBM to hear about exciting events coming up this month, including our Mid-Autumn Talent Show! We hope to see you there!`}
           />
         </Grid>
-        {/* TODO: */}
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <EventCard
             image='/images/2020-2021/events/fall_family_week.jpg'
