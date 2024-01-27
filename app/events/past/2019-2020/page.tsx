@@ -223,7 +223,7 @@ const Past2019_2020 = () => {
             image='/images/2019-2020/events/fall_symposium.jpg'
             header="Fall Symposium"
             subheading="Aug 31, 2019 | Ern Commons"
-            text={`Symposium is a new event this year, created to facilitate even more personal relationships between Family Heads and their respective Aunts and Uncles, as well as to have an open-forum discussion about organization health in order to build a strong communication pipeline all throughout the org. We will start with Aunt and Uncle reveals + games to spend time with just your family! Following that will be an open discussion about the family system, from which we can hopefully strengthen bonds between members, and share what individuals and families can do to foster a stronger community.`}
+            text={`Symposium is a new event this year, created to facilitate even more personal relationships between Family Heads and their respective Aunts and Uncles, as well as to have an open-forum discussion about organization health in order to build a strong communication pipeline all throughout the org.`}
             style={cardStyle} 
           />
         </Grid>
@@ -231,7 +231,7 @@ const Past2019_2020 = () => {
           <EventCard
             image='/images/2019-2020/events/car_wash.jpg'
             header="Car Wash Fundraiser"
-            subheading="Jul 27, 2019 | Exxon (5239 Rolling Rd, Springfield, VA)"
+            subheading="Jul 27, 2019 | Exxon Springfield"
             text={`Looking to get your car squeaky clean? Missing or haven't seen your CSA pals all Summer?
             Then drive on by and invite your friends to CSA'S ANNUAL FREE CAR WASH!!!
             Donations are accepted throughout the event and all proceeds go towards the Chinese Student Association at UVA!`}

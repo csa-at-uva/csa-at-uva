@@ -38,7 +38,8 @@ const Past2018_2019 = () => {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100%', 
+    maxWidth: '100%',
+    height: 'auto',
   };
 
   return (
@@ -160,7 +161,7 @@ const Past2018_2019 = () => {
           <EventCard
             image='/images/2018-2019/events/mezeh_fundraiser.jpg'
             header="Mezeh Fundraiser"
-            subheading="Oct 15, 2018 | Mezeh (2015 Bond St, Charlottesville, VA)"
+            subheading="Oct 15, 2018 | Mezeh Charlottesville"
             text={`Join us for dinner at Mezeh Charlottesville and mention CSA at the register or show the flyer! Mezeh will donate 40% of the proceeds to the Chinese Student Association at the University of Virginia's fund to promote and celebrate Chinese culture as well as to build a close community of students brought together by a mutual interest in Chinese culture. #MezehGives #GoMezeh`}
             style={cardStyle} 
           />

@@ -205,7 +205,7 @@ const Past2020_2021 = () => {
             image='/images/2020-2021/events/bone_battle.jpg'
             header="Bone Battle"
             subheading="Oct 19-23, 2021 | Virtual"
-            text={`GET HYPED FOR BONE BATTLEEEEE! Community is excited to present our week-long virtual scavenger hunt with a twist! Use your craniums and bash them together against other families to see which family has the strongest and biggest brains. Each day will feature a different theme and method of earning points; read below to see how to earn points for your family! We’ll also award the highest individual scorers with some prizes. The winning family will receive something special... and acknowledgement that they are the Bone Kings/Queen!`}
+            text={`Community is excited to present our week-long virtual scavenger hunt with a twist! Use your craniums and bash them together against other families to see which family has the strongest and biggest brains. Each day will feature a different theme and method of earning points! We’ll also award the highest individual scorers with some prizes. The winning family will receive something special... and acknowledgement that they are the Bone Kings/Queen!`}
             style={cardStyle} 
           />
         </Grid>

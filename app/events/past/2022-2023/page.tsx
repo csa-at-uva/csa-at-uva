@@ -233,7 +233,7 @@ const Past2022_2023 = () => {
           <EventCard
             image='/images/2022-2023/events/car_wash.jpg'
             header="Car Wash Fundraiser"
-            subheading="Jul 23, 2022 | Exxon (5239 Rolling Rd, Springfield, VA)"
+            subheading="Jul 23, 2022 | Exxon Springfield"
             text={`Come support 🐉 CSA@UVA 🐉 at a DONATION BASED car wash in NOVA! 🪣 We wash your car, you choose the price. 🧼 Bring your dirty (or not so dirty) car and see some familiar faces! 🚗`}
             style={cardStyle} 
           />

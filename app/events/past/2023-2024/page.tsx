@@ -226,7 +226,7 @@ const Past2023_2024 = () => {
           <EventCard
             image='/images/2023-2024/events/car_wash.jpg'
             header="Car Wash Fundraiser"
-            subheading="Aug 5, 2023 | Exxon & Mobil Stations Chantilly"
+            subheading="Aug 5, 2023 | Exxon Chantilly"
             text={`Come down to Chantilly’s Exxon to get your car washed at this donation based fundraiser! Invite family and friends!🚗🫧🫧`}
             style={cardStyle} 
           />

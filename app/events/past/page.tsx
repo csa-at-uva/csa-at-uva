@@ -80,13 +80,6 @@ function Past() {
               </Button>
             </Link>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <Link href="/events/past/2016-2017">
-              <Button variant="contained" size="medium" fullWidth style={buttonStyles}>
-                2016-2017
-              </Button>
-            </Link>
-          </Grid>
         </Grid>
       </div>
     </div>

@@ -242,7 +242,7 @@ const Past2017_2018 = () => {
           <EventCard
             image='/images/2017-2018/events/car_wash.jpg'
             header="Car Wash Fundraiser"
-            subheading="Jun 24, 2017 | Exxon (5239 Rolling Rd, Springfield, VA)"
+            subheading="Jun 24, 2017 | Exxon Springfield"
             text={`Our most anticipated summer event has arrived! The Chinese Student Association at the University of Virginia presents our Summer Carwash! Bring your car over and we will wash it just for you! This is a donation based event where all donations help support and fund CSA@UVa! Come visit us if you can! `}
             style={cardStyle} 
           />
