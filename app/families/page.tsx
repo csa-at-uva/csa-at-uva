@@ -33,7 +33,7 @@ const Families = () => {
               height={375}
             />
             <InstagramEmbed
-              url="instagram.com/p/CyL2cQNODIO/"
+              url="https://www.instagram.com/p/CyL2cQNODIO/"
               height={375}
             />
           </div>
