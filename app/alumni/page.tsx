@@ -26,7 +26,7 @@ const Alumni = () => {
     }
 
     return (
-      <Grid item xs={8}>
+      <Grid item xs={8} xl={6}>
         <AlumniCard image={alumniYearData.imageSrc}>
           <b>Class of {alumniYearData.year}</b>
           <Grid container>
