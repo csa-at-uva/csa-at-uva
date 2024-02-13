@@ -8,6 +8,7 @@ interface EventCardProps {
   subheading: string;
   text: string;
   style?: React.CSSProperties;
+  aspectRatio?: number;
 }
 
 const EventCard: React.FC<EventCardProps> = ({
@@ -15,6 +16,7 @@ const EventCard: React.FC<EventCardProps> = ({
   header,
   subheading,
   text,
+  aspectRatio = 16 / 9, 
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -29,6 +31,22 @@ const EventCard: React.FC<EventCardProps> = ({
   const cardStyles: React.CSSProperties = {
     position: 'relative',
     transition: 'transform 0.3s ease-in-out',
+    overflow: 'hidden' 
+  };
+
+  const mediaContainerStyles: React.CSSProperties = {
+    position: 'relative',
+    paddingTop: `${(1 / aspectRatio) * 100}%`, 
+    overflow: 'hidden',
+  };
+
+  const mediaStyles: React.CSSProperties = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
   };
 
   const overlayStyles: React.CSSProperties = {
@@ -62,12 +80,14 @@ const EventCard: React.FC<EventCardProps> = ({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <CardMedia
-        component="img"
-        style={{ width: '100%', height: '100%' }}
-        image={image}
-        alt="Card Image"
-      />
+      <div style={mediaContainerStyles}>
+        <CardMedia
+          component="img"
+          style={mediaStyles}
+          image={image}
+          alt="Card Image"
+        />
+      </div>
       <CardContent style={overlayStyles}>
         <div>
           <Typography variant="h5">{header}</Typography>

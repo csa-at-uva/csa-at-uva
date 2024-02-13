@@ -58,6 +58,34 @@ const Past2023_2024 = () => {
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <EventCard
+            image='/images/2023-2024/events/january_gbm.jpg'
+            header="January GBM"
+            subheading="Jan 24, 2024 | Ern Commons"
+            text={`Join us as we recap winter break and tease some exciting upcoming events that this semester has to offer!`}
+            style={cardStyle} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/december_gbm.jpg'
+            header="December GBM"
+            subheading="Dec 6, 2024 | Ern Commons"
+            text={`Join us in closing off the semester with our December GBM on December 6th! ❄️☃️This will be one you won’t want to miss. We will be handing out Santagrams 🍪 (and selling extras for those who missed their chance to buy one) to spread the holiday cheer! ✨🎄There will also be a Secret Santa gift exchange 🎁 after for those who signed up.`}
+            style={cardStyle} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/dds.jpg'
+            header="Dollar Dim Sum"
+            subheading="Dec 2, 2023 | Shea House"
+            text={`Take a break from dining hall food 🤮 and enjoy HOMEMADE DIM SUM! 😋 Get your sweet 🍬 and savory urges satisfied 🥡 with us at Shea House this weekend! 📅
+            Dishes are only $1 each! We accept both Venmo and cash.`}
+            style={cardStyle} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
             image='/images/2023-2024/events/triple_threat.jpg'
             header="Triple Threat"
             subheading="Nov 4, 2023 | DU @ 171 Madison Lane"
@@ -198,7 +226,7 @@ const Past2023_2024 = () => {
           <EventCard
             image='/images/2023-2024/events/car_wash.jpg'
             header="Car Wash Fundraiser"
-            subheading="Aug 5, 2023 | Exxon & Mobil Stations Chantilly"
+            subheading="Aug 5, 2023 | Exxon Chantilly"
             text={`Come down to Chantilly’s Exxon to get your car washed at this donation based fundraiser! Invite family and friends!🚗🫧🫧`}
             style={cardStyle} 
           />
@@ -207,7 +235,7 @@ const Past2023_2024 = () => {
           <EventCard
             image='/images/2023-2024/events/teado.jpg'
             header="Tea Do Fundraiser"
-            subheading="July 29, 2023 | Tea Do Fairfax"
+            subheading="Jul 29, 2023 | Tea Do Fairfax"
             text={`🧋🧋Looking for your next boba fix? 🧋🧋
             Well, look no further! In collaboration with CSO @ William&Mary, we present to you our Tea Do fundraiser! Swing by to catch up with friends and enjoy a refreshing drink! Don’t forget to mention the fundraiser at the counter! 😁`}
             style={cardStyle} 
