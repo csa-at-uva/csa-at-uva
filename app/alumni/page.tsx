@@ -12,7 +12,6 @@ const Alumni = () => {
   const alumniGridItems = alumniData.map((alumniYearData) => {
     const gridItems = [];
     for (const person of alumniYearData.people) {
-      console.log(alumniYearData.people);
       let display = person.name;
       if (person.roles.includes("exec")) display += "*";
       if (person.roles.includes("oboard")) display += "^";
@@ -26,7 +25,7 @@ const Alumni = () => {
     }
 
     return (
-      <Grid item xs={8} xl={6}>
+      <Grid item xs={8} xl={6} key={alumniYearData.year}>
         <AlumniCard image={alumniYearData.imageSrc}>
           <b>Class of {alumniYearData.year}</b>
           <Grid container>
