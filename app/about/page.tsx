@@ -18,16 +18,14 @@ const About = () => {
         src="/images/about_cover.jpg"
       />
       <div className='header'>
-        <h1>About CSA</h1>
+        <h1>About CSA@UVA</h1>
+        <h2>Chinese Student Association at the University of Virginia</h2>
       </div>
       <Grid container>
-        <Grid item xs={12} sx={{margin: "auto", paddingLeft: "10%", paddingRight: "10%", paddingBottom: "2%"}}>
-          The main goal of the Chinese Student Association at the University of Virginia (CSA@UVA) is to create an atmosphere where Chinese, Chinese-Americans, and all those interested in Chinese culture can come together. From organizing small get-togethers to large-scale events, CSA aims to create a welcoming environment for students to meet others and form meaningful connections. CSA welcomes and encourages people of all ages, races, and backgrounds to participate in, contribute to, and become part of the organization.
-        </Grid>
         <Grid item xs={7} sx={{margin: "auto", paddingLeft: "10%", paddingRight: "10%"}}>
           <div className='header'>
             <h2 style={{marginBottom: "2%"}}>Culture</h2>
-            <p>CSA@UVA is committed to nurturing cultural consciousness and fostering an appreciation for Chinese culture and heritage. Our annual events include Dollar Dim Sum, an opportunity for friends to gather and taste traditional cuisine, and our performance showcases FullMoonFest and Chinafest, which intricately weave contemporary themes while commemorating the Mid-Autumn Festival and Lunar New Year, respectively. These events feature dances, skits, and fashion walks and showcase a fusion of both traditional and modern facets of Chinese culture.</p>
+            <p>Our primary goal is to nurture and celebrate Chinese culture and heritage. We hold two large cultural showcases annually: FullMoonFest for the Mid-Autumn festival and Chinafest for Lunar New Year. Both include dances, skits, and other entertainment, showing facets of both traditional and modern Chinese culture. We also have other cultural events like Dollar Dim Sum, where we sell Chinese food for $1 a portion. However, despite our goal to celebrate Chinese culture, we invite people from all backgrounds to join CSA!</p>
           </div>
         </Grid>
         <Grid item xs={5}>
@@ -55,14 +53,14 @@ const About = () => {
         <Grid item xs={7} sx={{margin: "auto", paddingLeft: "10%", paddingRight: "10%"}}>
           <div className='header'>
             <h2 style={{marginBottom: "2%"}}>Community</h2>
-            <p>Beyond cultural celebrations, CSA@UVA is a cornerstone for unity and community-building. The family system serves as a platform for forging lasting connections, where individuals find support, mentorship, and a sense of belonging. Additionally, our involvement in sports and various communal activities serves as a conduit for fostering camaraderie and solidarity among members, creating spaces where bonds are forged and nurtured beyond cultural affiliations.</p>
+            <p>Beyond cultural celebrations, CSA prides itself on our unity and community-building. Our family system forges lifelong connections, where individuals find support, mentorship, and a sense of belonging. We foster many chances to meet friends old and new, whether through sports, parties, or other social events. We create spaces where bonds are forged and nurtured beyond cultural affiliations.</p>
           </div>
 
         </Grid>
         <Grid item xs={7} sx={{margin: "auto", paddingLeft: "10%", paddingRight: "10%"}}>
           <div className='header'>
             <h2 style={{marginBottom: "2%"}}>Outreach</h2>
-            <p>We participate in cultural events that have a university-wide impact like Culturefest.</p>
+            <p>Finally, CSA spreads our goals throughout the whole UVA community. We participate in Culturefest, UVA’s annual multicultural showcase; interact and co-host events with other CIOs on grounds such as UPC and other multicultural organizations; and invite the whole UVA community to come to our events, especially for our large culture shows like FullMoonFest and Chinafest.</p>
           </div>
         </Grid>
         <Grid item xs={5}>
