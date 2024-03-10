@@ -39,7 +39,7 @@ function Home() {
               <Card className='introduction' variant="outlined">
                 <CardContent style={{ padding: '15px' }}>
                   <Typography variant="body1">
-                    The Chinese Student Association at the University of Virginia (CSA@UVA), as one of the largest Asian-American cultural organizations on grounds, seeks to promote awareness and appreciation for Chinese culture within the University and greater Charlottesville community. 
+                    The Chinese Student Association at the University of Virginia (CSA@UVA), as one of the largest Asian-American cultural organizations on grounds, seeks to promote awareness and appreciation for Chinese culture within the University and greater Charlottesville community.
                   </Typography>
                   <div className='socials' style={{ marginTop: '15px', textAlign: 'center' }}>
                     <Link href="https://www.facebook.com/csa.uva">

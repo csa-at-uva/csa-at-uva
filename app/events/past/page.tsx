@@ -4,20 +4,20 @@ import "@fontsource/raleway";
 
 import React from 'react';
 import { Grid, Button } from '@mui/material';
-import Link from 'next/link'; 
+import Link from 'next/link';
 
 import background from '/public/images/mountains.png';
 
 function Past() {
   const buttonStyles = {
-    padding: '20px 30px', 
+    padding: '20px 30px',
     width: '100%',
   };
 
   const gridContainerStyles = {
     display: 'flex',
     justifyContent: 'center',
-    gap: '15px', 
+    gap: '15px',
   };
 
   const backgroundImageStyle = {

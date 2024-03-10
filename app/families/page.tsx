@@ -48,9 +48,9 @@ const Families = () => {
               alt="Goats' family picture at Sunset Series"
               height={375}
             />
-            <InstagramEmbed 
-              url="https://www.instagram.com/p/CwxjbZzAf69/" 
-              height={375} 
+            <InstagramEmbed
+              url="https://www.instagram.com/p/CwxjbZzAf69/"
+              height={375}
             />
           </div>
         </SwiperSlide>
@@ -64,9 +64,9 @@ const Families = () => {
               alt="Snakes' family picture at Sunset Series"
               height={375}
             />
-            <InstagramEmbed 
-              url="https://www.instagram.com/p/Cwu8kU-OlpH/" 
-              height={375} 
+            <InstagramEmbed
+              url="https://www.instagram.com/p/Cwu8kU-OlpH/"
+              height={375}
             />
           </div>
         </SwiperSlide>
