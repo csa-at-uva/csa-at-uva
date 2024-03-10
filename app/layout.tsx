@@ -25,7 +25,7 @@ export default function RootLayout({
     if (window.FB) {
       window.fbAsyncInit = function() {
         window.FB.init({
-          appId: '859184232616360', 
+          appId: '859184232616360',
           xfbml: true,
           version: 'v18.0',
         });
@@ -39,9 +39,9 @@ export default function RootLayout({
     //     js.src = "https://connect.facebook.net/en_US/sdk.js";
     //     fjs.parentNode.insertBefore(js, fjs);
     //   }(document, 'script', 'facebook-jssdk'));
-    // 
+    //
     }
-    
+
   }
 
   return (

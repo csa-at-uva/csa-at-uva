@@ -83,7 +83,7 @@ const Gallery = () => {
           <PhotoCard imagePath={pumpkin_painting_2023.src} name="Pumpkin Painting (10/14/2023)" />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <PhotoCard imagePath={yar_2023.src} name="YAR Tailgate (10/7/2023)" /> 
+          <PhotoCard imagePath={yar_2023.src} name="YAR Tailgate (10/7/2023)" />
         </Grid>
         <Grid item xs={12} sm={4}>
           <PhotoCard imagePath={gbm_2023.src} name="General Body Meeting (10/4/2023)" />
@@ -92,7 +92,7 @@ const Gallery = () => {
           <PhotoCard imagePath={sunset_series_2023.src} name="Class of 2026 at Sunset Series (9/14/2023)" />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <PhotoCard imagePath={downtown_group2_2023.src} name="Downtown Night (9/3/2023)" /> 
+          <PhotoCard imagePath={downtown_group2_2023.src} name="Downtown Night (9/3/2023)" />
         </Grid>
         <Grid item xs={12} sm={4}>
           <PhotoCard imagePath={downtown_group1_2023.src} name="Downtown Night (9/3/2023)" />
@@ -143,7 +143,7 @@ const Gallery = () => {
           <PhotoCard imagePath={football_2022.src} name="Football Practice (10/16/2022)" />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <PhotoCard imagePath={yar_alum_2022.src} name="Class of 2022 at YAR Tailgate (10/8/2022)" /> 
+          <PhotoCard imagePath={yar_alum_2022.src} name="Class of 2022 at YAR Tailgate (10/8/2022)" />
         </Grid>
         <Grid item xs={12} sm={4}>
           <PhotoCard imagePath={comm_dinner_2022.src} name="Community Dinner at O'Hill (9/14/2022)" />
@@ -155,7 +155,7 @@ const Gallery = () => {
           <PhotoCard imagePath={fourth_year_reception_2022.src} name="Class of 2022 at Fourth Year Reception (5/1/2022)" />
         </Grid>
       </Grid>
-      <ScrollUpButton /> 
+      <ScrollUpButton />
     </div>
   );
 };

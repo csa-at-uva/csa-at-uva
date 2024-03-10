@@ -26,8 +26,8 @@
   background-image: url('/public/images/mountains.png');
   background-size: cover;
   background-position: center;
-  min-height: 100vh; 
-  padding-top: 80px; 
+  min-height: 100vh;
+  padding-top: 80px;
   padding: 20px;
 }
 
@@ -96,8 +96,8 @@ h2 {
 
 .content .header h3 {
   width: 80%;
-  margin: 20px auto; 
-  line-height: 1.6; 
+  margin: 20px auto;
+  line-height: 1.6;
 }
 
 /* Button styles */

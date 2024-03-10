@@ -16,7 +16,7 @@ const EventCard: React.FC<EventCardProps> = ({
   header,
   subheading,
   text,
-  aspectRatio = 16 / 9, 
+  aspectRatio = 16 / 9,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -31,12 +31,12 @@ const EventCard: React.FC<EventCardProps> = ({
   const cardStyles: React.CSSProperties = {
     position: 'relative',
     transition: 'transform 0.3s ease-in-out',
-    overflow: 'hidden' 
+    overflow: 'hidden'
   };
 
   const mediaContainerStyles: React.CSSProperties = {
     position: 'relative',
-    paddingTop: `${(1 / aspectRatio) * 100}%`, 
+    paddingTop: `${(1 / aspectRatio) * 100}%`,
     overflow: 'hidden',
   };
 
