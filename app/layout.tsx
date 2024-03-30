@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Footer from '@components/Footer';
 import logo from '/public/images/csa_square_logo.png'
 import "@fontsource/raleway"
-import {AppBar, Box, Toolbar, Container, Menu, Typography, IconButton, MenuIcon} from "@mui/material"
+import {AppBar, Box, Toolbar, Container, Menu, Typography, IconButton} from "@mui/material"
 import React from "react"
 import MobileNavbar from '@components/MobileNavbar'
 
