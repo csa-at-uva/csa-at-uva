@@ -5,7 +5,7 @@
   display: block;
   background-color: transparent;
   text-align: right;
-  justify-content: right;
+  justify-self: right;
 }
 
 ul#navbar a {
@@ -81,8 +81,20 @@ ul#navbar .dropdown-content a {
 .entire_nav {
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 .navbar{
   align-content: right;
+}
+
+.mobile-content {
+  display: none;
+}
+.mobile-navbar:hover .mobile-content {
+  display: flex;
+}
+
+.main-mobile-link {
+  flex-basis: 100%;
 }
