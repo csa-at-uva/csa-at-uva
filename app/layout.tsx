@@ -23,30 +23,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  if (typeof window !== 'undefined') {
-    // Initialize the Facebook SDK
-    if (window.FB) {
-      window.fbAsyncInit = function() {
-        window.FB.init({
-          appId: '859184232616360',
-          xfbml: true,
-          version: 'v18.0',
-        });
-        window.FB.AppEvents.logPageView();
-      };
-
-    //   (function(d, s, id){
-    //     var js, fjs = d.getElementsByTagName(s)[0];
-    //     if (d.getElementById(id)) {return;}
-    //     js = d.createElement(s); js.id = id;
-    //     js.src = "https://connect.facebook.net/en_US/sdk.js";
-    //     fjs.parentNode.insertBefore(js, fjs);
-    //   }(document, 'script', 'facebook-jssdk'));
-    //
-    }
-
-  }
-
   return (
     <html lang="en">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
