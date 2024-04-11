@@ -5,7 +5,7 @@
   display: block;
   background-color: transparent;
   text-align: right;
-  justify-content: right;
+  justify-self: right;
 }
 
 ul#navbar a {
@@ -32,7 +32,7 @@ ul#navbar span {
   font-size: 2em;
   font-weight: 600;
   transition-duration: 0.5s;
-  position: relative; 
+  position: relative;
 }
 
 ul#navbar span:hover {
@@ -69,7 +69,7 @@ ul#navbar span:hover {
 }
 
 ul#navbar .dropdown-content a {
-  font-size: 1.25em; 
+  font-size: 1.25em;
 }
 
 .dropdown-content a:hover {
@@ -81,8 +81,20 @@ ul#navbar .dropdown-content a {
 .entire_nav {
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 .navbar{
   align-content: right;
+}
+
+.mobile-content {
+  display: none;
+}
+.mobile-navbar:hover .mobile-content {
+  display: flex;
+}
+
+.main-mobile-link {
+  flex-basis: 100%;
 }

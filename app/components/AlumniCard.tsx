@@ -2,21 +2,15 @@ import "@fontsource/raleway";
 import React, { useState } from 'react';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 
-interface EventCardProps {
+interface AlumniCardProps {
   image?: string;
-  header: string;
-  subheading: string;
-  text: string;
   style?: React.CSSProperties;
-  aspectRatio?: number;
+  children?: React.ReactElement | React.ReactElement[];
 }
 
-const EventCard: React.FC<EventCardProps> = ({
+const AlumniCard: React.FC<AlumniCardProps> = ({
   image,
-  header,
-  subheading,
-  text,
-  aspectRatio = 16 / 9,
+  children
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -31,22 +25,6 @@ const EventCard: React.FC<EventCardProps> = ({
   const cardStyles: React.CSSProperties = {
     position: 'relative',
     transition: 'transform 0.3s ease-in-out',
-    overflow: 'hidden'
-  };
-
-  const mediaContainerStyles: React.CSSProperties = {
-    position: 'relative',
-    paddingTop: `${(1 / aspectRatio) * 100}%`,
-    overflow: 'hidden',
-  };
-
-  const mediaStyles: React.CSSProperties = {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
   };
 
   const overlayStyles: React.CSSProperties = {
@@ -62,17 +40,17 @@ const EventCard: React.FC<EventCardProps> = ({
     padding: '20px', // Increase the padding for a wider overlay
     borderRadius: '5px',
     display: isHovered ? 'inline-block' : 'none',
-    width: '90%', // Set a wider width for the overlay
-    maxWidth: '400px', // Limit the maximum width for better readability
+    width: '80%', // Set a wider width for the overlay
+    // maxWidth: '400px', // Limit the maximum width for better readability
     margin: '0 auto', // Center the overlay horizontally
   };
 
   // Splitting text into an array based on line breaks ("\n") and mapping them to Typography components
-  const textLines = text.split('\n').map((line, index) => (
-    <Typography key={index} variant="body1">
-      {line}
-    </Typography>
-  ));
+  // const textLines = text.split('\n').map((line, index) => (
+  //   <Typography key={index} variant="body1">
+  //     {line}
+  //   </Typography>
+  // ));
 
   return (
     <Card
@@ -80,23 +58,17 @@ const EventCard: React.FC<EventCardProps> = ({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div style={mediaContainerStyles}>
-        <CardMedia
-          component="img"
-          style={mediaStyles}
-          image={image}
-          alt="Card Image"
-        />
-      </div>
+      <CardMedia
+        component="img"
+        style={{ width: '100%', height: '100%' }}
+        image={image}
+        alt="Card Image"
+      />
       <CardContent style={overlayStyles}>
-        <div>
-          <Typography variant="h5">{header}</Typography>
-          <Typography variant="subtitle1">{subheading}</Typography>
-          {textLines} {/* Render mapped Typography components */}
-        </div>
+        {children}
       </CardContent>
     </Card>
   );
 };
 
-export default EventCard;
+export default AlumniCard;
