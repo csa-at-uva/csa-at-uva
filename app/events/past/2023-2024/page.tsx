@@ -58,6 +58,63 @@ const Past2023_2024 = () => {
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <EventCard
+            image='/images/2023-2024/events/april_gbm.jpg'
+            header="April GBM"
+            subheading="Apr 3, 2024 | Ern Commons"
+            text={`Join us on Wednesday, 4/3 @ Ern Commons as we help kick off Spring Family Month 🌸 and come wish our current exec and oboard a happy retirement! We can't wait to see you there 😸`}
+            style={cardStyle}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/spring_family_month.jpg'
+            header="Spring Family Month"
+            subheading="Mar 18 - Apr 19, 2024 | Charlottesville, VA"
+            text={`Join us for our annual CSA Spring Family Month! Come out and meet new and old friends alike through various family and CSA wide events! You won't want to miss it!`}
+            style={cardStyle}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/exec_elections.jpg'
+            header="Executive Board Elections"
+            subheading="Mar 17, 2024 | New Cabell 323"
+            text={`Come vote for who YOU would like to see on next year's CSA executive board! Only those who attend may vote, ask candidates questions, and participate in discussions, so let your voice be heard!`}
+            style={cardStyle}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/chinafest_afterparty.jpg'
+            header="Chinafest Afterparty"
+            subheading="Mar 16, 2024 | Lambdas @ 118 Maywood Ln"
+            text={`after enjoying chinafest: benevolence step into the shadows and dare to unleash your inner malevolence! 🫢😈😈😋
+            performers: free!, due paying members: $2, chinafest attendees: $4, everyone else: $6
+            18+ to chill, 21+ to spill`}
+            style={cardStyle}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/chinafest.jpg'
+            header="Chinafest"
+            subheading="Mar 16, 2024 | Burley Middle School"
+            text={`Come out to CSA’s largest event of the year and celebrate the new year! 🧧 
+            We will be showcasing traditional dances 💃, modern dances 🪩, musical acts 🎤, a fashion show 🥋, and a skit representing our theme, benevolence 🎥 Guest performers Wushu ⚔️, VMajor 🎶, and Traditional Chinese Dance Team 💃 will also be joining us!`}
+            style={cardStyle}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
+            image='/images/2023-2024/events/february_gbm.jpg'
+            header="February GBM"
+            subheading="Feb 28, 2024 | Wilson 301"
+            text={`Join us for our monthly GBM as we recap the month and make some exciting announcements about some upcoming events like CHINAFEST ;)) You won't want to miss it! Keep an eye out for family order forms for our Canes 🍗 fundraiser! Pickup will be at GBM 🍽`}
+            style={cardStyle}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+          <EventCard
             image='/images/2023-2024/events/january_gbm.jpg'
             header="January GBM"
             subheading="Jan 24, 2024 | Ern Commons"
