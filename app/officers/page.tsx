@@ -75,7 +75,7 @@ const Officers = () => {
             <h2>Advisors</h2>
             <PhotoCard
               imagePath={advisors.src}
-              name={`Head Advisors: Justin Zhang, Emma Mei Andreas\n Advisors: Ken Chao, Margaux Reppert, and Isabelle Ngo`}
+              name={`Head Advisors: Justin Zhang and Emma Mei Andreas\n Advisors: Ken Chao, Margaux Reppert, and Isabelle Ngo`}
               description="Advisors are previous leaders in CSA who use their expertise to ensure all CSA events run smoothly."
             />
           </Grid>
