@@ -13,7 +13,6 @@ import president from "/public/images/2024-2025/officers/president.jpg";
 import vice_president from "/public/images/2024-2025/officers/vice_president.jpg";
 import secretary from "/public/images/2024-2025/officers/secretary.jpg";
 import treasurer from "/public/images/2024-2025/officers/treasurer.jpg";
-
 import advisors from "/public/images/2024-2025/officers/advisors.jpg";
 import community from "/public/images/2024-2025/officers/community.jpg";
 import culture from "/public/images/2024-2025/officers/culture.jpg";
