@@ -13,7 +13,6 @@ import president from "/public/images/2024-2025/officers/president.jpg";
 import vice_president from "/public/images/2024-2025/officers/vice_president.jpg";
 import secretary from "/public/images/2024-2025/officers/secretary.jpg";
 import treasurer from "/public/images/2024-2025/officers/treasurer.jpg";
-
 import advisors from "/public/images/2024-2025/officers/advisors.jpg";
 import community from "/public/images/2024-2025/officers/community.jpg";
 import culture from "/public/images/2024-2025/officers/culture.jpg";
@@ -56,11 +55,11 @@ const Officers = () => {
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Vice President</h2>
-          <PhotoCard imagePath={vice_president.src} name="Laura Abood" />
+          <PhotoCard imagePath={vice_president.src} name="Lizzie Chu" />
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Secretary</h2>
-          <PhotoCard imagePath={secretary.src} name="Lizzie Chu" />
+          <PhotoCard imagePath={secretary.src} name="Laura Abood" />
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Treasurer</h2>
