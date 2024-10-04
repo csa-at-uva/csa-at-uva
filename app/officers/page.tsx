@@ -56,11 +56,11 @@ const Officers = () => {
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Vice President</h2>
-          <PhotoCard imagePath={vice_president.src} name="Laura Abood" />
+          <PhotoCard imagePath={vice_president.src} name="Lizzie Chu" />
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Secretary</h2>
-          <PhotoCard imagePath={secretary.src} name="Lizzie Chu" />
+          <PhotoCard imagePath={secretary.src} name="Laura Abood" />
         </Grid>
         <Grid item xs={12} sm={3}>
           <h2>Treasurer</h2>
