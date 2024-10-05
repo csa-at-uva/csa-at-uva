@@ -111,7 +111,7 @@ const Archive2024 = () => {
                   fullWidth
                   style={buttonStyles}
                 >
-                  Sunset Series at Carter's Mountain (9/12/2024)
+                  Sunset Series at Carter&apos;s Mountain (9/12/2024)
                 </Button>
               </Link>
             </Grid>
