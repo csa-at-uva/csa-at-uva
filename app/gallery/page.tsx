@@ -42,6 +42,8 @@ const contents = [
   ["yar_alum_2022.JPG", "Class of 2022 at Fourth Year Reception (5/1/2022)"],
 ];
 
+import asu_group_oct_2024 from "/public/images/gallery/asu_group_oct_2024.jpg";
+import yar_2024 from "/public/images/gallery/yar_2024.jpg";
 import ice_cream_social_2024 from "/public/images/gallery/ice_cream_social_2024.jpg";
 import asu_exec_2023 from "/public/images/gallery/asu_exec_2023.jpg";
 import asu_group_jan_2023 from "/public/images/gallery/asu_group_jan_2023.JPG";
@@ -69,7 +71,7 @@ import pumpkin_painting_2023 from "/public/images/gallery/pumpkin_painting_2023.
 import smores_2022 from "/public/images/gallery/smores_2022.jpg";
 import sunset_series_2023 from "/public/images/gallery/sunset_series_2023.jpg";
 import yar_2023 from "/public/images/gallery/yar_2023.jpg";
-import yar_alum_2022 from "/public/images/gallery/yar_alum_2022.JPG";
+import yar_2022 from "/public/images/gallery/yar_2022.JPG";
 
 const Gallery = () => {
   return (
@@ -78,6 +80,18 @@ const Gallery = () => {
         <h1>Gallery</h1>
       </div>
       <Grid container spacing={2}>
+        <Grid item xs={12} sm={4}>
+          <PhotoCard
+            imagePath={asu_group_oct_2024.src}
+            name="ASU Semi-Formal (10/18/2024)"
+          />
+        </Grid>
+        <Grid item xs={12} sm={4}>
+          <PhotoCard
+            imagePath={yar_2024.src}
+            name="YAR Tailgate (10/5/2024)"
+          />
+        </Grid>
         <Grid item xs={12} sm={4}>
           <PhotoCard
             imagePath={ice_cream_social_2024.src}
@@ -221,7 +235,7 @@ const Gallery = () => {
         </Grid>
         <Grid item xs={12} sm={4}>
           <PhotoCard
-            imagePath={yar_alum_2022.src}
+            imagePath={yar_2022.src}
             name="Class of 2022 at YAR Tailgate (10/8/2022)"
           />
         </Grid>
