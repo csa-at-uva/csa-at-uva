@@ -38,7 +38,7 @@ const Officers = () => {
         <Grid item xs={6}>
           <div className="YouTubeEmbedContainer">
             <YouTubeEmbed
-              embedId="_JDPiBnltew?si=jLEIlZFjt9R4UmWy"
+              embedId="heCIvZLClME?si=rjTodEntMK01LyYw"
               embedWidth={500}
               embedHeight={300}
             />
