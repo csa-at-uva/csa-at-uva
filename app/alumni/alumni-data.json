@@ -4,6 +4,14 @@
         "imageSrc": "/images/chinafest-covers/chinafest_2024.jpg",
         "people": [
             {
+                "name": "Betty",
+                "roles": ["oboard"]
+            },
+            {
+                "name": "Brandon Ou",
+                "roles": ["oboard"]
+            },
+            {
                 "name": "Candace Chen",
                 "roles": []
             },
@@ -13,7 +21,15 @@
             },
             {
                 "name": "Clara Li",
-                "roles": []
+                "roles": ["oboard"]
+            },
+            {
+                "name": "Connie Du",
+                "roles": ["oboard", "famhead"]
+            },
+            {
+                "name": "Daniel Zhao",
+                "roles": ["oboard"]
             },
             {
                 "name": "David Le",
@@ -25,7 +41,15 @@
             },
             {
                 "name": "Emma Mei Andreas",
-                "roles": []
+                "roles": ["exec", "oboard", "famhead"]
+            },
+            {
+                "name": "Iris Chen",
+                "roles": ["oboard", "famhead"]
+            },
+            {
+                "name": "Isabelle Ngo",
+                "roles": ["oboard"]
             },
             {
                 "name": "Iris Chen",
@@ -41,7 +65,15 @@
             },
             {
                 "name": "Jessica Hom",
-                "roles": []
+                "roles": ["oboard"]
+            },
+            {
+                "name": "Justin Zhang",
+                "roles": ["exec", "oboard", "famhead"]
+            },
+            {
+                "name": "Kaylee Liu",
+                "roles": ["oboard", "famhead"]
             },
             {
                 "name": "Justin Zhang",
@@ -61,7 +93,11 @@
             },
             {
                 "name": "Margaux Reppert",
-                "roles": []
+                "roles": ["oboard"]
+            },
+            {
+                "name": "Michelle Kwan",
+                "roles": ["oboard", "famhead"]
             },
             {
                 "name": "Michelle Kwan",
@@ -73,23 +109,23 @@
             },
             {
                 "name": "Olivia Wang",
-                "roles": []
+                "roles": ["exec", "oboard"]
             },
             {
                 "name": "Rina Patterson",
-                "roles": []
+                "roles": ["oboard"]
             },
             {
                 "name": "Safa Khan",
-                "roles": []
+                "roles": ["exec", "oboard"]
             },
             {
                 "name": "Sherry Guo",
-                "roles": []
+                "roles": ["oboard"]
             },
             {
                 "name": "Stacy Meng",
-                "roles": []
+                "roles": ["oboard", "famhead"]
             },
             {
                 "name": "Stella Chiou",

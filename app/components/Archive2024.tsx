@@ -127,6 +127,78 @@ const Archive2024 = () => {
                 </Button>
               </Link>
             </Grid>
+            <Grid item xs={12} sm={3}>
+              <Link href="https://drive.google.com/drive/folders/1oG7XBei6CZpLoMkrvuLuWRS9vYm9OHBD?usp=sharing">
+                <Button
+                  variant="contained"
+                  size="medium"
+                  fullWidth
+                  style={buttonStyles}
+                >
+                  October Recap (10/2024)
+                </Button>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={3}>
+              <Link href="https://drive.google.com/drive/folders/137QX9eKo1XymrZyxgCsv-C_2EnJRPE7Y?usp=sharing">
+                <Button
+                  variant="contained"
+                  size="medium"
+                  fullWidth
+                  style={buttonStyles}
+                >
+                  November Recap (11/2024)
+                </Button>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={3}>
+              <Link href="https://drive.google.com/drive/folders/1YEbOxB12U1QbeAeQyMKeplnPLcV-Cma7?usp=sharing">
+                <Button
+                  variant="contained"
+                  size="medium"
+                  fullWidth
+                  style={buttonStyles}
+                >
+                  FULLMOONFEST (11/2/2024)
+                </Button>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={3}>
+              <Link href="https://drive.google.com/drive/folders/1-IEsIHSfYoBmSqmkjSi5Rz353GZw5Kg7?usp=sharing">
+                <Button
+                  variant="contained"
+                  size="medium"
+                  fullWidth
+                  style={buttonStyles}
+                >
+                  NOVEMBER GBM + Chicken Eating Contest (11/6/2024)
+                </Button>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={3}>
+              <Link href="https://drive.google.com/drive/folders/1yGMhNGJaeFdaaClGFfXsSoaPMvVU79Qw?usp=sharing">
+                <Button
+                  variant="contained"
+                  size="medium"
+                  fullWidth
+                  style={buttonStyles}
+                >
+                  Winter Recap (12/2024)
+                </Button>
+              </Link>
+            </Grid>
+            <Grid item xs={12} sm={3}>
+              <Link href="https://drive.google.com/drive/folders/1TN4DcuKpdFglEmdvl5T0oaY_MJx2Sc8g?usp=sharing">
+                <Button
+                  variant="contained"
+                  size="medium"
+                  fullWidth
+                  style={buttonStyles}
+                >
+                  DECEMBER GBM (12/4/2024)
+                </Button>
+              </Link>
+            </Grid>
             {/* Rest of the events are coming soon */}
             {/* <Grid item xs={12} sm={3}>
               <Link href="">
