@@ -52,6 +52,14 @@
                 "roles": ["oboard"]
             },
             {
+                "name": "Iris Chen",
+                "roles": []
+            },
+            {
+                "name": "Isabelle Ngo",
+                "roles": []
+            },
+            {
                 "name": "Jasmine Tang",
                 "roles": []
             },
@@ -68,6 +76,14 @@
                 "roles": ["oboard", "famhead"]
             },
             {
+                "name": "Justin Zhang",
+                "roles": []
+            },
+            {
+                "name": "Kaylee Liu",
+                "roles": []
+            },
+            {
                 "name": "Kiki Wong",
                 "roles": []
             },
@@ -82,6 +98,10 @@
             {
                 "name": "Michelle Kwan",
                 "roles": ["oboard", "famhead"]
+            },
+            {
+                "name": "Michelle Kwan",
+                "roles": []
             },
             {
                 "name": "Nitin Elavarasu",
