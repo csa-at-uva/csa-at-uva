@@ -45,7 +45,7 @@ const contents = [
   ["yar_alum_2022.JPG", "Class of 2022 at Fourth Year Reception (5/1/2022)"],
 ];
 
-import fmf_nov_2024 from "/public/images/gallery/fmf_nov_2024.jpg"
+import fmf_nov_2024 from "/public/images/gallery/fmf_nov_2024.jpg";
 import asu_group_oct_2024 from "/public/images/gallery/asu_group_oct_2024.jpg";
 import yar_2024 from "/public/images/gallery/yar_2024.jpg";
 import ice_cream_social_2024 from "/public/images/gallery/ice_cream_social_2024.jpg";
