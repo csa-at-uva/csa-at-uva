@@ -8,7 +8,10 @@ import PhotoCard from "@/app/components/PhotoCard";
 import ScrollUpButton from "@components/ScrollUpButton";
 
 const contents = [
-  ["ice_cream_social_2024.jpg", "ice Cream Social (9/7/2024)"],
+  ["fmf_nov_2024.jpg", "FullMoonFest (11/2/2024)"],
+  ["asu_group_oct_2024.jpg", "ASU Semi-Formal (10/18/2024)"],
+  ["yar_2024.jpg", "YAR Tailgate (10/5/2024)"],
+  ["ice_cream_social_2024.jpg", "Ice Cream Social (9/7/2024)"],
   ["asu_exec_2023.jpg", "ASU Semi-Formal (10/22/2023)"],
   ["asu_exec_2023.jpg", "ASU Semi-Formal (10/22/2023)"],
   ["asu_group_jan_2023.JPG", "2023-24 Exec at ASU Semi-Formal (10/22/2023)"],
@@ -42,6 +45,7 @@ const contents = [
   ["yar_alum_2022.JPG", "Class of 2022 at Fourth Year Reception (5/1/2022)"],
 ];
 
+import fmf_nov_2024 from "/public/images/gallery/fmf_nov_2024.jpg"
 import asu_group_oct_2024 from "/public/images/gallery/asu_group_oct_2024.jpg";
 import yar_2024 from "/public/images/gallery/yar_2024.jpg";
 import ice_cream_social_2024 from "/public/images/gallery/ice_cream_social_2024.jpg";
@@ -80,6 +84,12 @@ const Gallery = () => {
         <h1>Gallery</h1>
       </div>
       <Grid container spacing={2}>
+        <Grid item xs={12} sm={4}>
+            <PhotoCard
+              imagePath={fmf_nov_2024.src}
+              name="FullMoonFest (11/2/2024)"
+            />
+        </Grid>
         <Grid item xs={12} sm={4}>
           <PhotoCard
             imagePath={asu_group_oct_2024.src}
