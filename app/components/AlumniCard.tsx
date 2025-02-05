@@ -34,13 +34,15 @@ const AlumniCard: React.FC<AlumniCardProps> = ({
     transform: 'translate(-50%, -50%)',
     textAlign: 'center',
     opacity: isHovered ? 1 : 0,
-    transition: 'opacity 0.3s ease',
+    visibility: isHovered ? 'visible' : 'hidden',
+    transition: 'opacity 0.3s ease, visibility 0.3s ease',
     color: isHovered ? 'black' : 'transparent',
     backgroundColor: isHovered ? 'white' : 'transparent',
     padding: '20px', // Increase the padding for a wider overlay
     borderRadius: '5px',
-    display: isHovered ? 'inline-block' : 'none',
     width: '80%', // Set a wider width for the overlay
+    maxHeight: "300px",
+    overflowY: 'auto',
     // maxWidth: '400px', // Limit the maximum width for better readability
     margin: '0 auto', // Center the overlay horizontally
   };
@@ -60,7 +62,7 @@ const AlumniCard: React.FC<AlumniCardProps> = ({
     >
       <CardMedia
         component="img"
-        style={{ width: '100%', height: '100%' }}
+        style={{ width: '100%', height: '350px' }}
         image={image}
         alt="Card Image"
       />
