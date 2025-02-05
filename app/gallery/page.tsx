@@ -84,12 +84,12 @@ const Gallery = () => {
         <h1>Gallery</h1>
       </div>
       <Grid container spacing={2}>
-        {/* <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={4}>
             <PhotoCard
               imagePath={fmf_nov_2024.src}
               name="FullMoonFest (11/2/2024)"
             />
-        </Grid> */}
+        </Grid>
         <Grid item xs={12} sm={4}>
           <PhotoCard
             imagePath={asu_group_oct_2024.src}
