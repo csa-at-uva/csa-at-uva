@@ -57,6 +57,7 @@ const Gallery = () => {
       <div className="header">
         <h1>Gallery</h1>
       </div>
+
        <Grid container spacing={2}>
         {contents.map(([imageName, caption], index) => (
           <Grid item xs={12} sm={4} key={index}>
