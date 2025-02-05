@@ -8,7 +8,7 @@ import PhotoCard from "@/app/components/PhotoCard";
 import ScrollUpButton from "@components/ScrollUpButton";
 
 const contents = [
-  ["fmf_nov_2024.jpg", "FullMoonFest (11/2/2024)"],
+  ["fmf_nov_2024.JPG", "FullMoonFest (11/2/2024)"],
   ["asu_group_oct_2024.jpg", "ASU Semi-Formal (10/18/2024)"],
   ["yar_2024.jpg", "YAR Tailgate (10/5/2024)"],
   ["ice_cream_social_2024.jpg", "Ice Cream Social (9/7/2024)"],
@@ -45,37 +45,37 @@ const contents = [
   ["yar_alum_2022.JPG", "Class of 2022 at Fourth Year Reception (5/1/2022)"],
 ];
 
-import fmf_nov_2024 from "/public/images/gallery/fmf_nov_2024.jpg";
-import asu_group_oct_2024 from "/public/images/gallery/asu_group_oct_2024.jpg";
-import yar_2024 from "/public/images/gallery/yar_2024.jpg";
-import ice_cream_social_2024 from "/public/images/gallery/ice_cream_social_2024.jpg";
-import asu_exec_2023 from "/public/images/gallery/asu_exec_2023.jpg";
-import asu_group_jan_2023 from "/public/images/gallery/asu_group_jan_2023.JPG";
-import asu_group_oct_2023 from "/public/images/gallery/asu_group_oct_2023.jpg";
-import basketball_2022 from "/public/images/gallery/basketball_2022.JPG";
-import chinafest_dragon_2023 from "/public/images/gallery/chinafest_dragon_2023.JPG";
-import chinafest_fashionshow_2023 from "/public/images/gallery/chinafest_fashionshow_2023.JPG";
-import chinafest_fourthyears_2023 from "/public/images/gallery/chinafest_fourthyears_2023.JPG";
-import chinafest_fribbon_2023 from "/public/images/gallery/chinafest_fribbon_2023.JPG";
-import chinafest_fym_2023 from "/public/images/gallery/chinafest_fym_2023.JPG";
-import chinafest_girlsmodern_2023 from "/public/images/gallery/chinafest_girlsmodern_2023.JPG";
-import chinavasian_2023 from "/public/images/gallery/chinavasian_2023.jpg";
-import comm_dinner_2022 from "/public/images/gallery/comm_dinner_2022.JPG";
-import dds_group1_2022 from "/public/images/gallery/dds_group1_2022.JPG";
-import dds_group2_2022 from "/public/images/gallery/dds_group2_2022.JPG";
-import downtown_group1_2023 from "/public/images/gallery/downtown_group1_2023.jpg";
-import downtown_group2_2023 from "/public/images/gallery/downtown_group2_2023.jpg";
-import fmf_2022 from "/public/images/gallery/fmf_2022.JPG";
-import football_2022 from "/public/images/gallery/football_2022.JPG";
-import fourth_year_reception_2022 from "/public/images/gallery/fourth_year_reception_2022.jpg";
-import frisbee_2022 from "/public/images/gallery/frisbee_2022.JPG";
-import gbm_2023 from "/public/images/gallery/gbm_2023.jpg";
-import mtp_2023 from "/public/images/gallery/mtp_2023.jpg";
-import pumpkin_painting_2023 from "/public/images/gallery/pumpkin_painting_2023.JPG";
-import smores_2022 from "/public/images/gallery/smores_2022.jpg";
-import sunset_series_2023 from "/public/images/gallery/sunset_series_2023.jpg";
-import yar_2023 from "/public/images/gallery/yar_2023.jpg";
-import yar_2022 from "/public/images/gallery/yar_2022.JPG";
+// import fmf_nov_2024 from "/public/images/gallery/fmf_nov_2024.jpg";
+// import asu_group_oct_2024 from "/public/images/gallery/asu_group_oct_2024.jpg";
+// import yar_2024 from "/public/images/gallery/yar_2024.jpg";
+// import ice_cream_social_2024 from "/public/images/gallery/ice_cream_social_2024.jpg";
+// import asu_exec_2023 from "/public/images/gallery/asu_exec_2023.jpg";
+// import asu_group_jan_2023 from "/public/images/gallery/asu_group_jan_2023.JPG";
+// import asu_group_oct_2023 from "/public/images/gallery/asu_group_oct_2023.jpg";
+// import basketball_2022 from "/public/images/gallery/basketball_2022.JPG";
+// import chinafest_dragon_2023 from "/public/images/gallery/chinafest_dragon_2023.JPG";
+// import chinafest_fashionshow_2023 from "/public/images/gallery/chinafest_fashionshow_2023.JPG";
+// import chinafest_fourthyears_2023 from "/public/images/gallery/chinafest_fourthyears_2023.JPG";
+// import chinafest_fribbon_2023 from "/public/images/gallery/chinafest_fribbon_2023.JPG";
+// import chinafest_fym_2023 from "/public/images/gallery/chinafest_fym_2023.JPG";
+// import chinafest_girlsmodern_2023 from "/public/images/gallery/chinafest_girlsmodern_2023.JPG";
+// import chinavasian_2023 from "/public/images/gallery/chinavasian_2023.jpg";
+// import comm_dinner_2022 from "/public/images/gallery/comm_dinner_2022.JPG";
+// import dds_group1_2022 from "/public/images/gallery/dds_group1_2022.JPG";
+// import dds_group2_2022 from "/public/images/gallery/dds_group2_2022.JPG";
+// import downtown_group1_2023 from "/public/images/gallery/downtown_group1_2023.jpg";
+// import downtown_group2_2023 from "/public/images/gallery/downtown_group2_2023.jpg";
+// import fmf_2022 from "/public/images/gallery/fmf_2022.JPG";
+// import football_2022 from "/public/images/gallery/football_2022.JPG";
+// import fourth_year_reception_2022 from "/public/images/gallery/fourth_year_reception_2022.jpg";
+// import frisbee_2022 from "/public/images/gallery/frisbee_2022.JPG";
+// import gbm_2023 from "/public/images/gallery/gbm_2023.jpg";
+// import mtp_2023 from "/public/images/gallery/mtp_2023.jpg";
+// import pumpkin_painting_2023 from "/public/images/gallery/pumpkin_painting_2023.JPG";
+// import smores_2022 from "/public/images/gallery/smores_2022.jpg";
+// import sunset_series_2023 from "/public/images/gallery/sunset_series_2023.jpg";
+// import yar_2023 from "/public/images/gallery/yar_2023.jpg";
+// import yar_2022 from "/public/images/gallery/yar_2022.JPG";
 
 const Gallery = () => {
   return (
@@ -83,7 +83,7 @@ const Gallery = () => {
       <div className="header">
         <h1>Gallery</h1>
       </div>
-      <Grid container spacing={2}>
+      {/* <Grid container spacing={2}>
         <Grid item xs={12} sm={4}>
             <PhotoCard
               imagePath={fmf_nov_2024.src}
@@ -267,6 +267,17 @@ const Gallery = () => {
             name="Class of 2022 at Fourth Year Reception (5/1/2022)"
           />
         </Grid>
+      </Grid>
+      <ScrollUpButton /> */}
+       <Grid container spacing={2}>
+        {contents.map(([imageName, caption], index) => (
+          <Grid item xs={12} sm={4} key={index}>
+            <PhotoCard
+              imagePath={`/images/gallery/${imageName}`}
+              name={caption}
+            />
+          </Grid>
+        ))}
       </Grid>
       <ScrollUpButton />
     </div>
