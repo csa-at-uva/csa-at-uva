@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography, Link } from '@mui/material';
 
 interface PhotoCardProps {
   imagePath: string;
   name: string;
+  link?: string;
   description?: string;
 }
 
-const PhotoCard: React.FC<PhotoCardProps> = ({ imagePath, name, description }) => {
+const PhotoCard: React.FC<PhotoCardProps> = ({ imagePath, name, link, description }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -24,7 +25,10 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ imagePath, name, description }) =
 
   const textLines = name.split('\n').map((line, index) => (
     <Typography key={index} variant="body1">
-      {line}
+      {link ? (
+        <Link href={link} target="_blank" rel="noopener noreferrer" sx={{color:'#7b1500', fontWeight:'400', textDecoration:'none', '&:hover': {textDecoration: 'underline'}}}>
+          {line}
+        </Link>) : line}
     </Typography>
   ));
 
