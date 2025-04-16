@@ -83,6 +83,7 @@ export default function RootLayout({
           <MobileNavbar />
           {children}
         </body>
+        <Footer></Footer>
     </html>
   )
 }
